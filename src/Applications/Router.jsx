@@ -7,7 +7,7 @@ function Router() {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path='/'  element={<App/>} />
+            <Route path='/newsletter-sign-up'  element={<App/>} />
             
         </Routes>
     </BrowserRouter>
