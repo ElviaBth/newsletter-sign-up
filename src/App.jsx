@@ -8,7 +8,7 @@ function App() {
     <>
       <div>
         <picture>
-          <img media="(min-width:992px)" src={desktopImg} className='desktop-img' />
+          <img media="(min-width:576px)" src={desktopImg} className='desktop-img' />
           <img src={mobileImg} alt="sign-up image" className='mobile-img'/>
         </picture>
         <section>
