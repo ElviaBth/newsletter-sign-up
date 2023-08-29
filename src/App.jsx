@@ -2,11 +2,12 @@ import mobileImg from './assets/images/illustration-sign-up-mobile.svg'
 import desktopImg from './assets/images/illustration-sign-up-desktop.svg'
 import iconList from './assets/images/icon-list.svg'
 import './App.css'
+import { Link } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <div>
+      <div className='container'>
         <picture>
           <img media="(min-width:576px)" src={desktopImg} className='desktop-img' />
           <img src={mobileImg} alt="sign-up image" className='mobile-img'/>
@@ -22,7 +23,7 @@ function App() {
           <form action="">
           <label htmlFor='email'> Email address</label>
           <input type="email" name="email" id="email" placeholder='email@company.com'/>
-          <button type='submit'>Subscribe to monthly newsletter</button>
+          <Link to='/subscribe'><button >Subscribe to monthly newsletter</button></Link>
           </form>
 
         </section>

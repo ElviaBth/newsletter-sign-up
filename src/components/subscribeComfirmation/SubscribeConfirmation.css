@@ -1,0 +1,45 @@
+.subscribe-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 90vh;
+}
+
+.subscribe-container .subscribe-section{
+    margin: auto 0;
+}
+
+.subscribe-container .subscribe-section p{
+    font-size: 16px;
+}
+
+.paragraph-email-span{
+    font-weight: 700;
+}
+
+.subscribe-container .subscribe-section img{
+    width: 55px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.ssubscribe-button{
+    margin-top: 30px;
+    justify-self: flex-end;
+    align-self: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+    .subscribe-container{
+        margin: 100px auto;
+        padding: 30px;
+        height: 50vh;
+        max-width: 420px;
+        background-color: var(--white);
+        border-radius: 15px;
+    } 
+}
