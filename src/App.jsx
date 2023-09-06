@@ -62,6 +62,7 @@ function App() {
             <input 
             type="email"  
             id='email'
+            name='email'
             ref={emailRef}
             placeholder='email@company.com'
             onChange={(e)=>ValidateEmail(e)}
